@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>store page</title>
+<link rel="icon" type="image/x-icon" href="/images/web.ico">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background-color:#312438;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-top:-1%;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+            .ben2{
+      background-color: #0089b9;
+  color:black;
+  padding:20px 46px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-style:italic;
+  border-style:solid;
+  border-width:3px;
+  border-color:black;
+  font-size:25px;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-left: -2.8%;
+  margin-top: 4.6%;
+}
+            .ben3{
+      background-color: #0089b9;
+  color:black;
+  padding:21px 46px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-style:italic;
+  border-style:solid;
+  border-width:3px;
+  border-color:black;
+  font-size:25px;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-left: -2.8%;
+  margin-top: 9.83%;
+}
+            .ben4{
+      background-color: #0089b9;
+  color:black;
+  padding:21px 46px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-style:italic;
+  border-style:solid;
+  border-width:3px;
+  border-color:black;
+  font-size:25px;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-left: -2.8%;
+  margin-top: 15.1%;
+}
+            .ben5{
+      background-color: #0089b9;
+  color:black;
+  padding:20px 46px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-style:italic;
+  border-style:solid;
+  border-width:3px;
+  border-color:black;
+  font-size:25px;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-left: -2.8%;
+  margin-top: 20.4%;
+}
+.list{
+    margin-left:;
+    margin-top:-10.6%;
+    background-color:white;
+}
+
+        a:hover, a:active {
+  background-color:#444;
+}
+
+.top {display: block; margin-left: auto; margin-top: -6%; margin-right:auto;}
+.box1{ margin-left:10%; }
+.PC1{margin-left:10%; margin-top:10%;}
+    </style>
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="about_page.html">About</a>
+  <a href="/start_here/main_page.html">home</a>
+  <a href="legal_stuff.html">legal</a>
+  <a href="contacts_page.html">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Open menu</button>  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<img src="/images/logo.png" alt="logo" width="" height="" class="top"
+
+
+</body>
+</html>
