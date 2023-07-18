@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>main page</title>
-  <link rel="icon" type="x-icon" href="web.ico">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
+    <head>
+        <title>about us</title>
+        <link rel="icon" type="x-icon" href="/images/web.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            console.log('hello world!');
+        </script>
+        <style>
+            body {
+  background-color:#312438;
+}
 body {
   font-family: "Lato", sans-serif;
   background-color:#312438;
@@ -67,32 +73,43 @@ body {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
-body {
-  background-color:#;
-}
-
         a:hover, a:active {
   background-color:#444;
 }
 
-.top {display: block; margin-left: auto; margin-top: -7%; margin-right:auto;
-.ben3{
-      background-color: #0089b9;
-  color:black;
-  padding:21px 46px;
-  text-align:center;
-  
+    .center{
+  margin-left:30%;
+  font-style:italic;
+  font-size:25px;
 }
-.welcome{font-family:"Times New Roman", Times, serif;}
-</style>
-</head>
-<body>
-        <div id="mySidebar" class="sidebar">
+.center_text{
+  text-align:center;
+  font-size:20px;
+  margin-left:-36%;
+}
+.center_text2{
+  text-align:center;
+  font-size:20px;
+  margin-left:-36%;
+}
+.center_text3{
+  text-align:center;
+  font-size:20px;
+  margin-left:-34%;
+}
+.center_text4{
+  text-align:center;
+  font-size:20px;
+  margin-left:-36%;
+}
+.top {display: block; margin-left:66%; margin-top: -20%;}
+            </style>
+    </head>
+    <body>
+                    <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="about_page.html">About</a>
-  <a href="store.html">store</a>
-  <a href="legal_stuff.html">legal</a>
-  <a href="contacts_page.html">Contact</a>
+  <a href="warnings.html">Warnings</a>
+  <a href="bans.html">Bans</a>
 </div>
 
 <div id="main">
@@ -110,11 +127,15 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 </script>
-<p class="welcome"> welcome! please press open menu to start serching </p>
-<img src="logo.png" alt="logo" width="" height="" class="top">
-<img src="pc.png" alt="logo" width="" height="" class="">
-</body>
-<body>
-
-</body>
+        <br>
+        <br>
+        <br>
+        <h4 class="center"> Home </h1>
+        <p style="text-align:center;" class="center_text"> welcome to the elysium ban list. </p>
+        <p style="text-align:center;" class="center_text2">  This is where are currently banned players are saved, </p>
+        <p style="text-align:center;" class="center_text3">  along with any warnings that are put out. </p>
+        <p style="text-align:center;" class="center_text4"> I will be keeping this list up to date from now on for public records </p>
+        <img src="/images/logo.png" alt="logo" width="" height="" class="top">
+    
+    </body>
 </html>
